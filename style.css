@@ -11,6 +11,9 @@
 	margin-top: 70px;
 	margin-left: 10px;
 }
+.box1:hover{
+	cursor: no-drop
+}
 
 .box2{
 	background-image:url(2.jpeg);
@@ -22,9 +25,16 @@
 .img{
 	width: 200px;
 }
+
 .text{
 	text-align: center;
-	margin-top: 30px;
+	margin-top: 60px;
+
+}
+
+.text:hover{
+	color: red;
+	cursor: grab;
 }
 .div{
 	height: 100px;
@@ -59,4 +69,8 @@
 	}
 .box7{
 	background-color: #E6E6FA;
+}
+.gg1{
+	text-align: center;
+	margin-left: 65px;
 }
